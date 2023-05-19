@@ -1,0 +1,9 @@
+div, body{
+
+    background-color: rgba(20,30,13, .7);
+}
+ #circle{
+    width: 300px;
+    border-radius: 50%;
+}
+

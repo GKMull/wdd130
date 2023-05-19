@@ -1,0 +1,17 @@
+body {
+    background-color: pink;
+}
+header, body{
+    width: 500px;
+    padding: 10px auto;
+
+}
+p, body {
+
+    color: white;
+    width: 450px;
+    padding: auto;
+    font-size: 15px;
+    margin: 20px auto;
+
+}
