@@ -1,0 +1,12 @@
+div{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+body{
+    color: gray;
+}
+.cherry{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
