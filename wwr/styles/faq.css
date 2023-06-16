@@ -1,0 +1,158 @@
+body {
+    background-color: #fff1c2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    margin: 0;
+    padding: 0;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    
+}
+header {
+    font-size: 22px;
+    background-color:rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    width: 80px;
+}
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+} 
+nav a:hover {
+    background-color: rgba(20,30,13, .7);
+    color: #d9c2a3;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-img{
+    width: 100%;
+}
+#faq-img{
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-column: 2/4;
+    box-shadow: 5px 5px 10px #6f7c64;
+    border: 3px solid rgba(20,30,13, .7);
+    
+}
+main{
+    display: grid;
+    grid-template-columns:  1fr;
+    justify-content: center;
+    justify-items: center;
+}
+main h4{
+    color: black;
+    grid-column: 2/4;
+}
+main p {
+    margin: 6px;
+    grid-column: 2/4;
+    width: 70%;
+    
+}
+main h1{
+    margin: 30px;
+    grid-column: 2/4;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+footer{
+    font-size: 22px;
+    background-color: rgba(20,30,13, .7);
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+footer a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer p {
+    font-size: 1.2em;
+    
+} 
+footer a:hover{
+    color: white;
+}
+footer p a:hover {
+    text-decoration: underline;
+} 
+footer .social img{
+    padding-top: 15px;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+  
