@@ -1,0 +1,48 @@
+.body{
+    display: grid;
+}
+h1{
+    font-weight: bold;
+}
+.content{
+    
+    width: 100%;
+}
+section{
+    width: 50%;
+    padding: 10px;
+}
+.block2, .block4{
+    
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+.block3{
+    
+    padding: 10px;
+    border: 1px solid gray;
+    margin-left: auto;
+    margin-right: 0;
+}
+.block1{
+    
+    padding: 10px;
+    border: 1px solid gray;
+    margin-left: 0 auto;
+}
+.block4 p:nth-of-type(1){
+    text-align: right;
+}
+.block4 p:nth-of-type(3){
+    text-align: left;
+}
+p:nth-of-type(2) {
+    text-align: center;
+}
+p:nth-of-type(1) {
+    text-align: left;
+}
+p:nth-of-type(3){
+    text-align: right;
+}
