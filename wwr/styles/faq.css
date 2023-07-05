@@ -1,3 +1,33 @@
+.accordion {
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-weight: bold;
+    grid-column: 2/4;
+    width: 70%;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #F7DCAA;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #fff1c2;
+    overflow: hidden;
+    grid-column: 2/4;
+    margin-left: 6px;
+    width:70%;
+  }
+
 body {
     background-color: #fff1c2;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -69,8 +99,10 @@ main{
 main h4{
     color: black;
     grid-column: 2/4;
+    text-align: left;
 }
-main p {
+
+main p, .accordion {
     margin: 6px;
     grid-column: 2/4;
     width: 70%;
