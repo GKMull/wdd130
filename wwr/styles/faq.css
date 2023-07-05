@@ -10,8 +10,6 @@
     font-size: 15px;
     transition: 0.4s;
     font-weight: bold;
-    grid-column: 2/4;
-    width: 70%;
   }
   
   .active, .accordion:hover {
@@ -91,8 +89,9 @@ nav a:hover {
     
 }
 main{
+    width: 1200px;
     display: grid;
-    grid-template-columns:  1fr;
+    grid-template-columns:  15% 70% 15%;
     justify-content: center;
     justify-items: center;
 }
